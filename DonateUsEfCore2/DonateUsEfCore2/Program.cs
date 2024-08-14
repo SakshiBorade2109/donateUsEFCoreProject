@@ -1,4 +1,7 @@
 
+using DonateUsEfCore2.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace DonateUsEfCore2
 {
     public class Program
@@ -7,6 +10,7 @@ namespace DonateUsEfCore2
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services.AddDbContext<AppDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("AppDb")));
             // Add services to the container.
 
             builder.Services.AddControllers();

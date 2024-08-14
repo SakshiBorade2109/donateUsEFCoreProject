@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DonateUsEfCore2.props" />
+</Project>
