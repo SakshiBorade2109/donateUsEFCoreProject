@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DonateUsEfCore2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b67efa91b2b2037de1feb52b2c9e197a92999576")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+217565ac00ac1d84a92b4392716a3158ece36bca")]
 [assembly: System.Reflection.AssemblyProductAttribute("DonateUsEfCore2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DonateUsEfCore2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
